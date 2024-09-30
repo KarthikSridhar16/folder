@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.toggle-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease;
+}
+
+.white-section {
+  background-color: white;
+  padding: 50px;
+  color: black;
+  font-size: 24px;
+}
+
+.black-section {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  font-size: 24px;
+}
+
+.dark-mode .content {
+  background-color: black;
+}
+
+.dark-mode .white-section {
+  display: none;
+}
+
+.dark-mode .black-section {
+  display: block;
+}
